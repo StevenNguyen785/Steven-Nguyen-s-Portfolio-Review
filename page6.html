@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <h1>My Self Portrait</h1>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-sm bg-light navbar-light">
+  <ul class="navbar-nav">
+    <li class="nav-item active">
+      <a class="nav-link" href="index.html">Main Page</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="page1.html">Glitch Image</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="page2.html">Meme Art</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="page3.html">MineCraft Art</a>
+    </li>
+    <li class="nav-item"> 
+      <a class="nav-link" href="page4.html">3DPrint</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="page5.html">Net Art</a>
+      </li>
+    <li class="nav-item">
+      <a class="nav-link" href="page7.html">DIY Photoshop</a>
+      </li>  
+      <li class="nav-item">
+      <a class="nav-link" href="page8.html">Final Project</a>
+     </li> 
+  </ul>
+</nav>
+<img src="SelfPortrait.jpg" class="mx-auto d-block">
+<div class="container">
+  <h2>Artist Statement:</h2>
+  <p>This is a self portrait of myself identify this with my favorite blue cap and green t-shirt.</p>
+  <p2>The code for the Portrait:
+      function setup() {
+createCanvas(600, 600);
+}
+
+function draw() {
+background(228, 216, 116);
+
+fill(46, 212, 118); // Shirt Color
+quad(100, 600, 500, 600, 460, 475, 130, 475);
+
+fill(249, 237, 206); // Neck Color
+square(262, 400, 75, 20);
+
+fill(249, 237, 206); // Face Color
+ellipse(300, 300, 180, 270);
+
+fill(0,0,0,) // Right Eyebrow
+rect(235, 230, 40, 10);
+
+fill(0,0,0,) // Left Eyebrow
+rect(325, 230, 40, 10);
+
+fill(255, 255, 255) // Right Eyebrow
+ellipse(255, 265, 50, 30);
+
+fill(255, 255, 255) // Left Eyebrow
+ellipse(340, 265, 50, 30);
+
+fill(145, 106, 77) // Right Pupil
+ellipse(255, 265, 20, 20);
+
+fill(145, 106, 77) // Left Pupil
+ellipse(340, 265, 20, 20);
+
+fill(249, 237, 206) // Nose
+arc(300, 320, 60, 60, 0, PI + QUARTER_PI, OPEN);
+
+fill(229, 168, 121) // Mouth
+arc(300, 375, 60, 60, 0, PI + QUARTER_PI, CHORD);
+
+fill(208, 148, 103) // Lips
+line (330, 375, 270, 375);
+
+fill(0, 0, 0) // Hair
+triangle(250, 150, 200, 275, 400, 200);
+
+fill(78, 62, 226) // Hat 1
+rect(200, 120, 200, 100, 35, 35, 0, 0);
+
+fill(78,62,226) // Hat 2
+rect(400, 200, 100, 20);
+
+fill(0,0,0) // Hat Line 1
+rect(300, 120, 5, 100);
+
+fill(0,0,0) // Hat Line 2
+rect(250, 120, 5, 100);
+
+fill(0,0,0) // Hat Line 3
+rect(350, 120, 5, 100);
+
+fill(0,0,0) // Hat Line 4
+rect(215, 125, 5, 95);
+
+fill(0,0,0) // Hat Line 5
+rect(380, 125, 5, 95);
+
+fill(0,0,0) // Hat Line 6
+rect(330, 120, 5, 100);
+
+fill(0,0,0) // Hat Line 7
+rect(275, 120, 5, 100);
+
+}</p2/>
+</div>
+
+</body>
+</html>
