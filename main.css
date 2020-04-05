@@ -16,8 +16,8 @@ font-family: "Source Sans Pro", "Arial", "Gill Sans", "Gill Sans MT", "DejaVu Sa
 h1.welcome {font-size:56px; padding-bottom: 0px;}
 h1 {font-size: 60px; color: #6fc000; text-align: center; padding: 40px 0px 30px 0px;}
 h2 {font-size: 24px; color: #999; padding: 10px 0 10px 0;}
-h2.artist {color: #4A90E2;font-size: 30px; font-family: "Source Sans Pro","Verdana", sans-serif;text-align: center; text-transform: uppercase;letter-spacing: 0.2em; padding: 20px 0px;}
-h2.vr {font-size: 20px; font-family: "Source Sans Pro","Verdana", sans-serif;color: #4A90E2;text-align: center; text-transform: uppercase;letter-spacing: 0.3em; padding: 20px 0px;}
+h2.artist {color: #4A90E2;font-size: 30px; font-family: "Source Sans Pro","Verdana", sans-serif;text-align: center; text-transform: uppercase;letter-spacing: 0.25em; padding: 20px 0px;}
+h2.vr {font-size: 20px; font-family: "Source Sans Pro","Verdana", sans-serif;color: #4A90E2;text-align: center; text-transform: uppercase;letter-spacing: 0.2em; padding: 20px 0px;}
 span.title {font-size: 24px; color: #fff; padding: 0;}
 div.copyright {font-size: 16px; color: #666;margin: 30px 0; text-align: center;}
 p.statement {font-size: 24px; color: #999; padding: 50px 0 10px 0; text-align: left;}
