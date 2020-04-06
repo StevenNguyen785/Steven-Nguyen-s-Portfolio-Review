@@ -12,7 +12,7 @@ font-family: "Source Sans Pro", "Arial", "Gill Sans", "Gill Sans MT", "DejaVu Sa
 	background-color: #222;
 }
 
-.container {padding-bottom:40px; padding-top:4px;width:35%;border-bottom: 1px solid #333;}
+.container {padding-bottom:40px; padding-top:4px;border-bottom: 1px solid #333;}
 h1.welcome {font-size:56px; padding-bottom: 0px;}
 h1 {font-size: 60px; color: #6fc000; text-align: center; padding: 40px 0px 30px 0px;}
 h2 {font-size: 24px; color: #999; padding: 10px 0 10px 0;}
